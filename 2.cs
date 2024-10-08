@@ -99,26 +99,44 @@
 #endregion
 
 #region Task6
-int num = int.Parse(Console.ReadLine());
-int memory = 0;
-int big = 0;
-int end = 0;
-int i = 0;
-while (i > 25)
-{
-    i++;
-    while (big != memory)
-    {
-        if (num <= 0) break;
-        memory = num % 10;
-        num /= 10;
-        if (memory > num % 10)
-        {
-            big = memory;
-            continue;
-        }
-    }
-    end += big * 10;
-}
-Console.WriteLine(end);
+//int num = int.Parse(Console.ReadLine());
+//int numForLenght = num;
+//int numLenght = 0;
+
+//for (int i = 0; 0 < numForLenght; i++)
+//{
+//    numLenght++;
+//    numForLenght /= 10;
+//}
+
+//int[] arr = new int[numLenght];
+//int mem = 0;
+
+//for (int i = arr.Length - 1; i >= 0; i--)
+//{
+//    arr[i] = num % 10;
+//    num /= 10;
+//}
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    for (int j = 0; j < arr.Length; j++)
+//    {
+//        if (arr[i] > arr[j])
+//        {
+//            mem = arr[i];
+//            arr[i] = arr[j];
+//            arr[j] = mem;
+//        }
+//    }
+//}
+
+//int final = 0;
+//foreach (int i in arr)
+//{
+//    final *= 10;
+//    final += i;
+//}
+
+//Console.WriteLine(final);
 #endregion
