@@ -51,7 +51,7 @@
 //string text = Console.ReadLine();
 //string target = Console.ReadLine();
 //int count = 0;
-//bool foundIt=false;
+//bool foundIt = false;
 
 //for (int i = 0; i < text.Length; i++)
 //{
@@ -66,32 +66,59 @@
 //    }
 //    else
 //    {
+//        if (count != 0) i-= count;
 //        count = 0;
+
 //    }
 //}
 //if (foundIt) Console.WriteLine("Found it !!!");
-//else Console.WriteLine("There is no " + target  + " in the sentence !!!");
+//else Console.WriteLine("There is no " + target + " in the sentence !!!");
 #endregion
 
 #region Task5
-int[] arr = { 8, 1, 46, 6, 2, 5, 3, 25, };
-int num = 0;
+//int[] arr = { 8, 1, 46, 6, 2, 5, 3, 25, };
+//int num = 0;
 
-for (int i = 0; i < arr.Length; i++)
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    for (int j = 0; j < arr.Length; j++)
+//    {
+//        if (arr[i] < arr[j])
+//        {
+//            num = arr[i];
+//            arr[i] = arr[j];
+//            arr[j] = num;
+//        }
+//    }
+//}
+
+//foreach (int item in arr)
+//{
+//    Console.WriteLine(item);
+//}
+#endregion
+
+#region Task6
+int num = int.Parse(Console.ReadLine());
+int memory = 0;
+int big = 0;
+int end = 0;
+int i = 0;
+while (i > 25)
 {
-    for (int j = 0; j < arr.Length; j++)
+    i++;
+    while (big != memory)
     {
-        if (arr[i] < arr[j])
+        if (num <= 0) break;
+        memory = num % 10;
+        num /= 10;
+        if (memory > num % 10)
         {
-            num = arr[i];
-            arr[i] = arr[j];
-            arr[j] = num;
+            big = memory;
+            continue;
         }
     }
+    end += big * 10;
 }
-
-foreach (int item in arr)
-{
-    Console.WriteLine(item);
-}
+Console.WriteLine(end);
 #endregion
