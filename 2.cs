@@ -64,7 +64,12 @@
 //            break;
 //        }
 //    }
-//    else count = 0;
+//    else
+//    {
+//        if (count > 0) i-= count;
+//        count = 0;
+
+//    }
 //}
 //if (foundIt) Console.WriteLine("Found it !!!");
 //else Console.WriteLine("There is no " + target + " in the sentence !!!");
