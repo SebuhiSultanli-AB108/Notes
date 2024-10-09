@@ -58,18 +58,13 @@
 //    if (text[i] == target[count])
 //    {
 //        count++;
-//        if (count == target.Length - 1)
+//        if (count == target.Length)
 //        {
 //            foundIt = true;
 //            break;
 //        }
 //    }
-//    else
-//    {
-//        if (count != 0) i-= count;
-//        count = 0;
-
-//    }
+//    else count = 0;
 //}
 //if (foundIt) Console.WriteLine("Found it !!!");
 //else Console.WriteLine("There is no " + target + " in the sentence !!!");
