@@ -140,3 +140,43 @@
 
 //Console.WriteLine(final);
 #endregion
+
+#region task 7
+
+//int[] arrOne = { 1, 5, 7, 6, 4, 2, 63, 74, 11 };
+//int[] arrTwo = { 5, 7, 56, 4, 5, 7, 1, 5, 4 };
+
+//bool isEqual = false;
+
+//for (int i = 0; i < arrOne.Length; i++)
+//{
+//    for (int j = 0; j < arrTwo.Length; j++)
+//    {
+//        if (arrOne[i] == arrTwo[j])
+//        {
+//            isEqual = true;
+//            break;
+//        }
+//    }
+//    if (!isEqual) Console.WriteLine(arrOne[i]);
+//    isEqual = false;
+//}
+#endregion
+
+#region Task 8
+//int[] arr = { 1, 5, 7, 6, 4, 2, 6, 11 };
+
+//int evenSum = 0;
+//int oddSum = 0;
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    if(i % 2 == 1) oddSum += arr[i];
+//    else evenSum += arr[i];
+//}
+
+//Console.WriteLine(evenSum);
+//Console.WriteLine("----------------");
+//Console.WriteLine(oddSum);
+
+#endregion
