@@ -60,7 +60,7 @@
 //Console.WriteLine(Truecount + "/" + len);
 #endregion
 
-#region Task 4
+#region Task4
 //int[] arrOne = { 1, 5, 6, 2, 4, 89, 5, 4, 154 };
 //int[] arrTwo = { 4, 45, 56, 68, 89, 6 };
 //int[] newArr = new int[arrOne.Length + arrTwo.Length];
