@@ -24,7 +24,7 @@
 #endregion
 
 #region Task3
-//char[] sait = { 'a', 'e', 'u', 'i', 'o', 'A', 'E', 'U', 'I', 'O' };
+//string sait = "aeuioAEUIO";
 //Console.Write("Uzunluq: ");
 //int len = int.Parse(Console.ReadLine());
 //string[] words = new string[len];
@@ -44,7 +44,8 @@
 //    {
 //        for (int i = 0; i < sait.Length; i++)
 //        {
-//            if (sait[i] == c) count++; 
+//            if (sait[i] == c) count++;
+//            break;
 //        }
 //    }
 //    Console.Write("Sait: ");
